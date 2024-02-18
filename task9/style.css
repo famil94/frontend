@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.hamisi {
+    margin-left: 450px;
+}
+
+.propertyTbl {
+    background-color: #f0fff8;
+    border: solid 1px #80ced6;
+    color: black;
+    width: 695px;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.tablebody td {
+    border: solid 1px #80ced6;
+    padding: 10px;
+    margin: 1px;
+}
+
+.childhd {
+    margin-top: 15px;
+    border: solid 1px #80ced6;
+}
+
+.headerr{
+    margin: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tbl {
+    width: 695px;
+    background-color: #f0fff8;
+    border-collapse: collapse;
+}
