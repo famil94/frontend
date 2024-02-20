@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#ffffff ;
+}
+.cart1{
+    background-color: #8e44ad;
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin: 10px;
+}
+.cart2{
+    background-color: #009432;
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin: 10px;
+}
+.cart3{
+    background-color: #0652DD;
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin: 10px;
+}
+.cart4{
+    background-color: #161617;
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin: 10px;
+}
+.cip{
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+.nomber{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: -5px;
+}
+.visa{width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.adi{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.flex{display: flex;
+    justify-content: space-between;
+}
+#tarix{
+    font-size: 9px;
+    display: block;
+    
+
+
+}
+#date{
+    display: block;
+    font-size: 20px;
+}
+.nomre{
+    font-weight: 200px;
+    font-size: 25px;
+    margin-top: -5px;
+    display: block;
+    letter-spacing: 3px;
+}
+.bolum{
+    display: inline-block;
+}
+.finish{
+    display: flex;
+    justify-content: center;
+}
