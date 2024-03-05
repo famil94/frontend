@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .basliq{
@@ -31,4 +32,7 @@ header{
 }
 .foto2{
     width: 320px;
+}
+.fotoTextPadding{
+    padding-left: 10px;
 }
