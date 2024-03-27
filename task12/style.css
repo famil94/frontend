@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.note{
+    text-align: center;
+}
+.note1{
+    flex: 100%;
+    color: #2c7ae7;
+    max-width: 100%;
+}
+.note2{
+    font-weight: 700;
+    color: #3b3b44;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.borderi{ 
+    border:solid 1px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    border-color: blueviolet;
+    background-color: #ffffff;
+    box-shadow: inset;
+}
+.img1{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    gap: 10px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.son{
+    align-items: center;
+    padding-left: 20px;
+}

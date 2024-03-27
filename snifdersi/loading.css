@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.loadingMainBox{
+    width: 100vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loadingElement{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    
+}

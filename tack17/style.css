@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* stike sidebar bolumu */
+
+.stickySection{
+    background-color: black;
+}
+
+.stikyBigBox{
+    width:100vw ;
+    height:45vh;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.sticky{
+    display: block;
+    padding: 0px 30px;
+    color: white;
+}
+
+/* ikinci bolum */
+
+.sectionTwo{
+    padding-left: 220px;
+    padding-right: 220px;
+    color: black;
+}
+
+/* .container{
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 0px 30px
+}
+.first-box{
+    height: 466px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.first-note{
+    display: flex;
+
+}
+.first-boxh2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.first-boxp{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: left;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.footer{
+    display: block;
+    display: flex;
+    border: solid 1px blueviolet;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(62, 22, 99);
+}
+.avesome{
+    
+} */

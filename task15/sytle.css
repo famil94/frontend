@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.headh12{
+font-size: 36px;
+font-weight: 500;
+line-height: 48px;
+color: #1F1F1F;
+position: relative;
+z-index: 9;
+padding-bottom: 15px;
+}
+
+.note{
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    gap:20px;
+}
+.not{
+    text-align: center;
+    padding-bottom: 15px;
+}

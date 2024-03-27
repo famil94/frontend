@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #7d4698;
+
+}
+.fon{
+    width: 100vw;
+    height: 100vh;
+}
+.bash{
+    text-align: center;
+}
+.hisse{
+    margin-left: 16%;
+    display: block;
+}
+.box{margin: 30px;
+    display: inline-block;
+}
+.iconbox{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+    margin-left: 50px;
+    
+}
+.
