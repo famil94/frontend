@@ -51,10 +51,10 @@
 
 
 // tas-10
-let fullName = "Murad Orucov"
-for(i=0; i<fullName.length; i++){
-    console.log(fullName[i].length);
-}
+// let fullName = "Murad Orucov"
+// for(i=0; i<fullName.length; i++){
+//     console.log(fullName[i].length);
+// }
 
 
 
@@ -99,3 +99,10 @@ for(i=0; i<fullName.length; i++){
 // if(num1>num2 && num1<num3 || num1<num2 && num1>num3){
 //     console.log((num1));
 // }else if(num2>num1 && num2<num3 || )
+
+
+
+
+
+
+

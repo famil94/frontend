@@ -1,73 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="az">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <style>
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adi Caravan Organization</title>
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header class="hedad1"></header>
-    <main id="wrapper">
-        <h1>Steven Watres</h1>
-        <h3 class="h30">Front-end Developer</h3>
-        <nav>
-            <h4>
-                Find me:
-            </h4>
-            <ul>
-                <li><a href="#">about</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Github</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Twitter</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Likedin</a></li>
-            </ul>
-        </nav>
-        <section>
-            <h4>Blog</h4>
-            <div>
-                <h4>Are CSS Compliers The Feature?</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatem aliquam ex cum minus ullam
-                    corrupti qui dolorem sunt, quos praesentium! Expedita amet, laborum debitis maxime inventore quis.
-                    Blanditiis, alias! Explicabo commodi perspiciatis voluptatum ipsam, similique molestias dicta
-                    repellat temporibus tempora officiis odio adipisci fuga cum, incidunt aliquam dignissimos, expedita
-                    illum aliquid rerum dolores nobis? A eum obcaecati nemo laudantium?
-                </p>
-                <a href="#!">read more</a>
-            </div>
-            <div>
-                <h4>Don’t Learn React In 2023! (The Ultimate Guide)</h4>
-                <p>
-                    Now, this post does not aim to prevent you from learning React and other relevant JavaScript
-                    frameworks like Vue JS and angular js. Instead, in this blog post we will be covering the topics
-                    like, 1) What isincidunt aliquam dignissimos, expedita illum aliquid rerum dolores nobis? A eum
-                    obcaecati nemo laudantium ...
-                </p>
-                <a href="#!">read more</a>
-            </div>
-            <div>
-                <h4>React Architecture | Best Practices</h4>
-                <p>
-                    Now a days, ReactJs is widely used View library worldwide. So it becomes very important to apply
-                    best architecture practices to make code reusable, maintainable and also it would help to improve
-                    code ...
-                </p>
-                <a href="#!">read more</a>
-            </div>
-        </section>
-        <br>
-        <br>
-        <footer></footer>
-    </main>
-</body>
+<header>
+    <h1>Adi Caravan Organization</h1>
+    <nav>
+        <ul>
+            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#!"><i class="fab fa-pinterest-p"></i></a></li>
+        </ul>
+    </nav>
+</header>
 
+<div class="slideshow-container">
+    <!-- Slaydlar -->
+    <div class="mySlides fade">
+        <img src="decor1.jpg" alt="Decor 1">
+    </div>
+    <div class="mySlides fade">
+        <img src="decor2.jpg" alt="Decor 2">
+    </div>
+    <div class="mySlides fade">
+        <img src="decor3.jpg" alt="Decor 3">
+    </div>
+    <!-- Navigasiya düymələri -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Tarix seçimi -->
+<form action="submit.php" method="POST">
+    <label for="date">Zəhmət olmasa tarix seçin:</label>
+    <input type="date" id="date" name="date" required>
+    <button type="submit">Səbətə Əlavə Et</button>
+</form>
+
+<footer>
+    <p>© 2024 Adi Caravan Organization. Bütün hüquqlar qorunur.</p>
+    <input type="date" id="reservationDate">
+<button onclick="addReservation()">Rezervasiya Et</button>
+
+</footer>
+<script src="caravan.js"></script>
+</body>
 </html>
